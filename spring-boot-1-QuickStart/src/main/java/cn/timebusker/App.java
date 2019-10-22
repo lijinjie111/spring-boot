@@ -36,7 +36,7 @@ public class App {
 		//设置 spring.devtools.restart.enabled 属性为false，可以关闭该特性.
 		//System.setProperty("spring.devtools.restart.enabled","false");  
 		
-		// 启动Sprign Boot
+		// 启动Spring Boot
 		ApplicationContext ctx = SpringApplication.run(App.class, args);
 		System.out.println("Let's inspect the beans provided by Spring Boot:");
 		String[] beanNames = ctx.getBeanDefinitionNames();
